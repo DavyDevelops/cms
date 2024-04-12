@@ -1,7 +1,7 @@
 const mongoose = require("mongoose")
 
 const connectDB = async () => {
-    return mongoose.connect("mongodb+srv://combsuser:Doctormasx2002@cluster0.vnjz1rp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(() => console.Consolelog(`database connected...`))
+    return mongoose.connect("mongodb+srv://admin123:Doctormasx2002@cluster0.yhfgf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(() => console.log(`database connected...`))
     .catch((err) => console.log(err));
 };
 

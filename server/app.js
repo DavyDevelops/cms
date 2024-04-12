@@ -12,9 +12,7 @@ app.use(morgan("tiny"));
 // Middlewares
 
 // Routes
-app.get("/", (req, res) => {
-    res.send("Hello World");
-});
+app.use("/api", require("./routes/auth"))
 
 
 
